@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<!-- indica la versione 5 di html -->
 <html lang="it">
-<!-- indica l'inizio della sezione HTML -->
 <head>
-    <!-- qui non si può inserire contenuto della pagina -->
     <meta charset="UTF-8">
-    <!-- indica l'insieme dei caratteri ammissibili all'interno della pagina -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- inizializza la gestione responsive della interfaccia della pagina VINCOLANTE PER L'ACCESSIBILITA' -->
-    <title>FRONTEND</title>
+    <title>Frontend Giochi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    ciao
-    <!-- apertura del marcatore a -->
-    <a href="./pages/splash.html">
-        clicca qui per vedere l'animazione
-    </a>
-    <!-- marcatore di chiusura-->
-    
+<body class="bg-light">
+    <main class="container py-5">
+        <h1 class="mb-3">Frontend GameApi</h1>
+        <p class="text-secondary">Scegli quale esperienza aprire.</p>
+        <div class="d-flex flex-wrap gap-2">
+            <a class="btn btn-outline-secondary" href="./pages/splash.html">Splash demo</a>
+            <a class="btn btn-success" href="./Dama/index.html">Dama online</a>
+        </div>
+    </main>
 </body>
 </html>
